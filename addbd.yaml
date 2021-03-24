@@ -20,7 +20,7 @@
         validate_certs: no
         tenant: "{{ tenant }}"
         vrf_name: "{{ vrf_name }}"
-        bd: "newBD1"
+        bd: "newBD2"
         state: present
         use_proxy: no
       delegate_to: localhost
