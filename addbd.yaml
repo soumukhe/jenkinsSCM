@@ -15,7 +15,7 @@
       aci_bd:
         host: "dmzapic8"
         username: "ansible"
-        private_key:  "./certs/ansible.key"
+        private_key:  "/myJenkinsData/Ansible/APIC/certs/ansible.key"
         certificate_name: "ansible"
         validate_certs: no
         tenant: "sm-Jenkins-Ansible"
